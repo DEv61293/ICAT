@@ -292,6 +292,9 @@ button {
     .footer-row ul li {
         margin: 10px 0;
     }
+  #scrollIndicator,.scroll-indicator::before{
+       display: none;
+    }
 }
 .footer-row ul li a:hover {
     color: #ffffff;
