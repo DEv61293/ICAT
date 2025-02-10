@@ -201,7 +201,7 @@ button {
     }
 
     .sub-heading {
-        width: 60%;
+        width:80%;
         font-size: 16px;
         margin: -50 auto;
     }
@@ -294,6 +294,16 @@ button {
     }
   #scrollIndicator,.scroll-indicator::before{
        display: none;
+    }
+    .sub-heading{
+        margin-top:-60px;
+        width: 100%;
+    }
+    
+}
+@media (max-width:420px) {
+    .heading{
+        margin-top:-100px;
     }
 }
 .footer-row ul li a:hover {
